@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="stylee.css">
+</head>
+
+<body>
+    <div class="container">
+        <header id="HEADER">
+            <div id="header">
+                <div class="animated-background"></div>
+                <a href="#" class="welcome">PORTFOLIO</a>
+            </div>
+        </header>
+        <section id="CONTACT">
+            <div id="contact">
+                <div class="NAME">
+                    <div class="name">LOPEZ RAMIREZ</div>
+                    <div class="name2">MICHEL</div>
+                </div>
+                <div class="tel">
+                    <a href="tel:+33667139532">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="2em"
+                            width="1.6em" version="1.1" viewBox="0 0 512 512" xml:space="preserve" class="st0"
+                            id="phone">
+                            <g>
+                                <path class="st0"
+                                    d="M94.811,21.696c-35.18,22.816-42.091,94.135-28.809,152.262c10.344,45.266,32.336,105.987,69.42,163.165   c34.886,53.79,83.557,102.022,120.669,129.928c47.657,35.832,115.594,58.608,150.774,35.792   c17.789-11.537,44.218-43.058,45.424-48.714c0,0-15.498-23.896-18.899-29.14l-51.972-80.135   c-3.862-5.955-28.082-0.512-40.386,6.457c-16.597,9.404-31.882,34.636-31.882,34.636c-11.38,6.575-20.912,0.024-40.828-9.142   c-24.477-11.262-51.997-46.254-73.9-77.947c-20.005-32.923-40.732-72.322-41.032-99.264c-0.247-21.922-2.341-33.296,8.304-41.006   c0,0,29.272-3.666,44.627-14.984c11.381-8.392,26.228-28.286,22.366-34.242l-51.972-80.134c-3.401-5.244-18.899-29.14-18.899-29.14   C152.159-1.117,112.6,10.159,94.811,21.696z" />
+                            </g>
+                        </svg>
+                    </a>
+                    <a id="emailLink" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" version="1.1" width="2em" height="2em"
+                            viewBox="0 0 512 512" class="st0">
+                            <g id="7935ec95c421cee6d86eb22ecd12600d">
+                                <path
+                                    d="M170.591,239.406L1.584,429.263c-0.433-1.911-1.084-3.759-1.084-5.852V88.589 c0-2.541,0.71-4.837,1.356-7.144L170.591,239.406z M493.987,65.524c-1.238-0.277-2.424-0.876-3.79-0.876H21.819 c-1.297,0-2.456,0.599-3.769,0.876l237.961,222.734L493.987,65.524z M262.808,313.021c-1.954,1.869-4.372,2.777-6.797,2.777 c-2.419,0-4.842-0.908-6.775-2.777l-62.21-58.217L16.656,446.145c1.698,0.523,3.364,1.207,5.163,1.207h468.378 c1.89,0,3.534-0.684,5.243-1.207L325.082,254.804L262.808,313.021z M341.494,239.406l168.98,189.836 c0.459-1.911,1.025-3.759,1.025-5.831V88.589c0-2.499-0.62-4.837-1.26-7.133L341.494,239.406z">
+                                </path>
+                            </g>
+                        </svg>
+                    </a>
+                    <script>
+                        function isMobile() {
+                            return /Android|iPhone|iPad|iPod|Opera Mini|IEMobile|WPDesktop|BlackBerry/i.test(navigator.userAgent);
+                        }
+
+                        document.getElementById('emailLink').addEventListener('click', function (event) {
+                            event.preventDefault();
+                            const email = "michels.lopezramirez@gmail.com";
+
+                            if (isMobile()) {
+                                window.location.href = `mailto:${email}`;
+                            } else {
+                                window.open(`https://mail.google.com/mail/?view=cm&fs=1&to=${email}`, '_blank');
+                            }
+                        });
+                    </script>
+                </div>
+            </div>
+        </section>
+        <aside id="SIDEBAR">
+            <nav id="sidebar">
+                <a class="sidebar" href="#" data-section="profil">PROFIL</a>
+                <a class="sidebar" href="#" data-section="competences">COMPÉTENCES</a>
+                <a class="sidebar" href="#" data-section="sio">SIO</a>
+                <a class="sidebar" href="#" data-section="projet">PROJET</a>
+            </nav>
+        </aside>
+        <section id="BACKGROUND">
+            <div id="BIENVENUE">
+                <div class="bienvenue">BIENVENUE</div>
+            </div>
+            <div id="dynamicContent">
+                <div class="content-section" id="profil">
+                    <div class="respon">
+                        <h2>Profil</h2>
+                        <p>Étudiant de 18 ans en première année de BTS SIO, en spécialité SLAM.
+                            <br> Actuellement en recherche d'une formation afin d'acquérir de l'expérience.
+                        <h2>Qualités</h2>
+                        - Travail en équipe <br>
+                        - Curieux <br>
+                        - Sérieux <br>
+                        - Compétiteur
+                        </p>
+                        <a class="CV" download="CV LOPEZ RAMIREZ Michel.pdf" href="CV LOPEZ RAMIREZ Michel.pdf"
+                            alt="lien"> ➞ Télécharger mon CV</a>
+                    </div>
+                </div>
+                <div class="content-section" id="competences">
+                    <h2>Compétences</h2>
+                    <p>- HTML <br>
+                        - CSS <br>
+                        - JavaScript en formation <br>
+                        - Photoshop <br>
+                        - Première Pro <br>
+                        <br>
+                    <h2>Langues</h2>
+                    - Français <br>
+                    - Espagnol (Maternelle) <br>
+                    - Anglais B1
+                    </p>
+                </div>
+                <div class="content-section" id="sio">
+                    <div class="respon">
+                        <h2>SIO (Services Informatiques aux organisations) à Saint Aspais</h2>
+                        <p>Le brevet de technicien supérieur Services informatiques aux organisations est un cursus
+                            d'études
+                            sur deux ans. Il peut être préparé en formation continue, en alternance ou en initiale. <br>
+                            <br>
+                            Dès le deuxième semestre de la première année, les étudiants ont le choix entre deux options
+                            :
+                            <br>
+                        <div class="Forma">La spécialité Solutions Logicielles et Applications Métier (SLAM) :</div>
+                        Cette spécialité se concentre sur la conception, le développement et la maintenance
+                        d'applications
+                        informatiques. Les étudiants apprennent à créer des logiciels, <br>
+                        des sites web et des applications mobiles en utilisant des langages de programmation comme Java,
+                        PHP, Python, ainsi que des outils de gestion de bases <br>
+                        de données et des technologies web. <br>
+                        <br>
+                        <div class="Forma">La spécialité Solutions d'Infrastructure, Systèmes et Réseaux (SISR) :</div>
+                        La spécialité SISR porte sur la gestion des infrastructures informatiques. Les étudiants se
+                        forment
+                        à l'administration des réseaux, à la gestion des serveurs, <br>
+                        à la cybersécurité, à la virtualisation et à la gestion des systèmes d’information pour assurer
+                        la
+                        disponibilité, la sécurité et la performance des <br>
+                        ressources informatiques. <br>
+                        <br>
+                        <div id="SLAMSISR">SLAM est orienté vers le développement logiciel, tandis que SISR se concentre
+                            sur
+                            l'administration des réseaux et des systèmes.</div>
+                        </p>
+                        <a class="CV" href="https://institutionsaintaspais.fr/" alt="saintas">➞ Lien vers le site
+                            SAINT-ASPAIS</a>
+                    </div>
+                </div>
+                <div class="content-section" id="projet">
+                    <h2>Mes Projets</h2>
+                    <p>Voici mes récents projets :</p> <br>
+                    <div class="OUI">
+                        <img class="Oui" src="Images/Capture.PNG" alt="Présentation">
+                        <img class="Oui" src="Images/Oui2.jpg" alt="Présentation">
+                        <img class="Oui" src="Images/Oui.jpg" alt="Présentation">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="javaa.js"></script>
+
+</body>
+
+</html>
