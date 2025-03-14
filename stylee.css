@@ -133,7 +133,8 @@ body {
 .tel {
     display: flex;
     margin-right: 1em;
-    gap: 0.3em;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .st0 {
@@ -397,7 +398,7 @@ body {
     }
 
     .st0 {
-        height: 50%;
+        height: 70%;
         width: auto;
     }
 
